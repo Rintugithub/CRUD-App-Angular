@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Febin",
+      "email": "febin@gmail.com",
+      "mobile": 987654321,
+      "city": "Kottapuram"
+    }
+  ],
+  "signup": [
+    {
+      "name": "John",
+      "email": "john@gmail.com",
+      "mobile": 5647390265,
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Febin",
+      "email": "febin123@gmail.com",
+      "mobile": 8976543213,
+      "password": "abcd",
+      "id": 2
+    },
+    {
+      "name": "roman",
+      "email": "rom@gmail.com",
+      "mobile": 987654321,
+      "password": "aaaa",
+      "id": 3
+    },
+    {
+      "name": "Rintu",
+      "email": "rintuva123@gmail.com",
+      "mobile": 7865432123,
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "name": "RINTU",
+      "email": "rintu123@gmail.com",
+      "mobile": 987654321,
+      "password": "1234",
+      "id": 5
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

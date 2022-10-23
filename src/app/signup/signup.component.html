@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+      <div  class="text-center">
+        <h1>Student Signup</h1>
+        <strong>Signup anytime!</strong>
+
+      </div>
+      <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Name</label>
+          <input type="text" formControlName="name" placeholder="Enter your name here" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+<small *ngIf="signupForm.get('name')?.invalid &&signupForm.get('name')?.touched" class="text-danger" >Name is required</small>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email </label>
+          <input type="email" formControlName="email" placeholder="Enter your email here" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <small *ngIf="signupForm.get('email')?.invalid &&signupForm.get('email')?.touched" class="text-danger" >Email is required</small>
+
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Mobile NO</label>
+          <input type="number" formControlName="mobile" placeholder="Enter your mobileno here" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <small *ngIf="signupForm.get('mobile')?.invalid &&signupForm.get('mobile')?.touched" class="text-danger" >Mobileno is required</small>
+
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" formControlName="password" placeholder="Enter your password here" class="form-control" id="exampleInputPassword1">
+          <small *ngIf="signupForm.get('password')?.invalid &&signupForm.get('password')?.touched" class="text-danger" >password is required</small>
+
+        </div>
+
+        <button  type="submit" class="btn btn-primary" [disabled]="signupForm.invalid">Signup</button>
+      </form>
+      <a style="color: blue;margin-top:10px;" routerLink="/login" >Already Register? Click here to Login</a>
+    </div>
+  </div>
+</div>
+</div>
+
