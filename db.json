@@ -5,7 +5,21 @@
       "name": "Febin",
       "email": "febin@gmail.com",
       "mobile": 987654321,
-      "city": "Kottapuram"
+      "city": "malayattor"
+    },
+    {
+      "id": 2,
+      "name": "Rintu",
+      "email": "rintu123@gmail.com",
+      "mobile": 1234567890,
+      "city": "kottapuram"
+    },
+    {
+      "id": 3,
+      "name": "Eloy",
+      "email": "eloy@1gmail.com",
+      "mobile": 1234567890,
+      "city": "kodungallur"
     }
   ],
   "signup": [
@@ -43,6 +57,20 @@
       "mobile": 987654321,
       "password": "1234",
       "id": 5
+    },
+    {
+      "name": "Rintu va",
+      "email": "rintu@gmail.com",
+      "mobile": 987654321,
+      "password": "12345",
+      "id": 6
+    },
+    {
+      "name": "Manu",
+      "email": "manu123@gmail.com",
+      "mobile": 1234567890,
+      "password": "12345",
+      "id": 7
     }
   ],
   "comments": [],

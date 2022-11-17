@@ -33,7 +33,7 @@ export class LoginComponent implements OnInit {
 
       //codition for login
       if (user) {
-
+        
         alert("successfully logged in");
         this.loginForm.reset();
         this.router.navigate(['student']);

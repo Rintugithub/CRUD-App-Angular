@@ -11,16 +11,15 @@ import { studentdata } from './student.model';
   styleUrls: ['./student.component.css']
 })
 export class StudentComponent implements OnInit {
-  loginForm!:FormGroup;
-showadd!:boolean;
-showupdate!:boolean;
-formValue!:FormGroup;
-studentModelObj:studentdata=new studentdata;
-allStudentData:any;
 
+  loginForm!:FormGroup;
+  showadd!:boolean;
+  showupdate!:boolean;
+  formValue!:FormGroup;
+  studentModelObj:studentdata=new studentdata;
+  allStudentData:any;
 
   constructor(private formBuilder:FormBuilder,private api:ApiService,private router:Router) { }
-
   ngOnInit(): void {
     if(!localStorage.getItem('token')){
       alert("Please login");
@@ -28,6 +27,8 @@ allStudentData:any;
 
 
     }
+
+
     this.formValue=this.formBuilder.group({
       name:['',Validators.required],
       email:['',Validators.required],
@@ -86,6 +87,7 @@ allStudentData:any;
       alert("something went wrong");
 
     })
+    
 
   }
   //getdata
