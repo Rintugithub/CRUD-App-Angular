@@ -1,18 +1,11 @@
 {
   "posts": [
     {
-      "id": 1,
-      "name": "Febin",
-      "email": "febin@gmail.com",
-      "mobile": 987654321,
-      "city": "malayattor"
-    },
-    {
       "id": 2,
       "name": "Rintu",
       "email": "rintu123@gmail.com",
       "mobile": 1234567890,
-      "city": "kottapuram"
+      "city": "kotta"
     },
     {
       "id": 3,
