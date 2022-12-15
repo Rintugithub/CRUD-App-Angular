@@ -1,18 +1,32 @@
 {
   "posts": [
     {
-      "id": 2,
-      "name": "Rintu",
-      "email": "rintu123@gmail.com",
-      "mobile": 1234567890,
-      "city": "kotta"
-    },
-    {
       "id": 3,
-      "name": "Eloy",
+      "name": "Eloy shine",
       "email": "eloy@1gmail.com",
       "mobile": 1234567890,
-      "city": "kodungallur"
+      "city": "thiruthipuram"
+    },
+    {
+      "id": 2,
+      "name": " FEBIN",
+      "email": "febin000@gmail.com",
+      "mobile": 8943620671,
+      "city": "malayator"
+    },
+    {
+      "id": 4,
+      "name": "rintu",
+      "email": "rintuva000@gmail.com",
+      "mobile": 6282617137,
+      "city": "kochi"
+    },
+    {
+      "id": 5,
+      "name": "abhil",
+      "email": "abil@123gmail.com",
+      "mobile": 1234567890,
+      "city": "dubai"
     }
   ],
   "signup": [
